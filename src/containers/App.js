@@ -1,11 +1,10 @@
-// testing 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import CardList from '../Components/CardList';
 import SearchBox from '../Components/SearchBox';
 import Scroll from '../Components/Scroll';
 import ErrorBoundry from '../Components/ErrorBoundry'
-import '../containers/App.css'
+import '../containers/App.css';
 
 import { setSearchField, requestRobots } from '../actions';
 
